@@ -1,7 +1,7 @@
-<testsuite name="simpleold-test-suite" time="1.232" failures="0" errors="0" skipped="0" tests="1">
+<testsuite name="simpleold-test-suite" time="3.619" failures="0" errors="0" skipped="0" tests="1">
   <properties>
     <property key="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property key="sun.boot.library.path" value="C:\Progra~1\Java\jdk1.8.0_101\jre\bin"/>
+    <property key="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
     <property key="java.vm.version" value="25.101-b13"/>
     <property key="maven.multiModuleProjectDirectory" value="C:\Users\UGVK44\Mule6.1\simpleold"/>
     <property key="java.vm.vendor" value="Oracle Corporation"/>
@@ -19,7 +19,7 @@
     <property key="java.runtime.version" value="1.8.0_101-b13"/>
     <property key="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property key="mule.testingMode" value="true"/>
-    <property key="java.endorsed.dirs" value="C:\Progra~1\Java\jdk1.8.0_101\jre\lib\endorsed"/>
+    <property key="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed"/>
     <property key="os.arch" value="amd64"/>
     <property key="java.io.tmpdir" value="C:\Users\UGVK44\AppData\Local\Temp\"/>
     <property key="line.separator" value="&#xd;&#xa;"/>
@@ -28,7 +28,7 @@
     <property key="os.name" value="Windows 7"/>
     <property key="classworlds.conf" value="C:\Programs\apache-maven-3.3.9\bin\..\bin\m2.conf"/>
     <property key="sun.jnu.encoding" value="Cp1252"/>
-    <property key="java.library.path" value="C:\Progra~1\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Programs\apache-maven-3.3.9\bin;."/>
+    <property key="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_101/bin/server;C:/Program Files/Java/jre1.8.0_101/bin;C:/Program Files/Java/jre1.8.0_101/lib/amd64;C:\Program Files (x86)\CA\SharedComponents\PEC\bin;C:\Program Files\CA\SCM\x86;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Novell\SecureLogin\;C:\Program Files (x86)\Attachmate\E!E2K\;C:\PROGRA~2\IBM\SQLLIB\BIN;C:\PROGRA~2\IBM\SQLLIB\FUNCTION;C:\PROGRA~2\IBM\SQLLIB\SAMPLES\REPL;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\CA\SCM;C:\Programs\AnypointStudio 6.1;;."/>
     <property key="java.specification.name" value="Java Platform API Specification"/>
     <property key="java.class.version" value="52.0"/>
     <property key="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -39,31 +39,29 @@
     <property key="file.encoding" value="Cp1252"/>
     <property key="java.specification.version" value="1.8"/>
     <property key="log4j.configurationFile" value="file:/C:/Users/UGVK44/Mule6.1/simpleold/target/test-classes/log4j2-test.xml"/>
-    <property key="cobertura.port" value="53181"/>
+    <property key="cobertura.port" value="51203"/>
     <property key="java.class.path" value="C:\Programs\apache-maven-3.3.9\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
     <property key="user.name" value="UGVK44"/>
     <property key="java.vm.specification.version" value="1.8"/>
-    <property key="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
-    <property key="java.home" value="C:\Progra~1\Java\jdk1.8.0_101\jre"/>
+    <property key="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean test"/>
+    <property key="java.home" value="C:\Program Files\Java\jdk1.8.0_101\jre"/>
     <property key="sun.arch.data.model" value="64"/>
     <property key="user.language" value="en"/>
     <property key="java.specification.vendor" value="Oracle Corporation"/>
     <property key="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property key="java.vm.info" value="mixed mode"/>
     <property key="java.version" value="1.8.0_101"/>
-    <property key="java.ext.dirs" value="C:\Progra~1\Java\jdk1.8.0_101\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property key="sun.boot.class.path" value="C:\Progra~1\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Progra~1\Java\jdk1.8.0_101\jre\classes"/>
+    <property key="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property key="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes"/>
     <property key="java.vendor" value="Oracle Corporation"/>
-    <property key="sun.stderr.encoding" value="cp437"/>
     <property key="maven.home" value="C:\Programs\apache-maven-3.3.9\bin\.."/>
     <property key="file.separator" value="\"/>
     <property key="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property key="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property key="sun.cpu.endian" value="little"/>
-    <property key="sun.stdout.encoding" value="cp437"/>
     <property key="mule.encoding" value="UTF-8"/>
     <property key="sun.desktop" value="windows"/>
     <property key="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="1.232" name="simpleold-test-suite-simpleoldFlowTest" classname="simpleold-test-suite"/>
+  <testcase time="3.619" name="simpleold-test-suite-simpleoldFlowTest" classname="simpleold-test-suite"/>
 </testsuite>
