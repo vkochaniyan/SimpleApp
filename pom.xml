@@ -101,7 +101,7 @@
 				<configuration>
 					<deploymentType>cloudhub</deploymentType>
 					<muleVersion>3.8.0</muleVersion>
-					<username>st_VK</username>
+					<username>vk_ST</username>
 					<password>Kochi69</password>
 					<redeploy>true</redeploy>
 					<environment>Development</environment>
