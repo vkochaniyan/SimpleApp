@@ -106,10 +106,12 @@
 					<redeploy>true</redeploy>
 					<environment>Development</environment>
 					<applicationName>SimpleOld</applicationName>
+<!-- 
 					<businessGroup>SunTrustInc</businessGroup>
 					<applications>
 						<application>SimpleOld</application>
 					</applications>
+-->
 				</configuration>
 				<executions>
 					<execution>
