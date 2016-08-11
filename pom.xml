@@ -106,6 +106,8 @@
 					<redeploy>true</redeploy>
 					<environment>Development</environment>
 					<applicationName>SimpleOld</applicationName>
+					<target>1DEV1MULER</target>
+					<targetType>server</targetType>
 <!-- 
 					<businessGroup>SunTrustInc</businessGroup>
 					<applications>
