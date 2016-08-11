@@ -116,7 +116,7 @@
 				<executions>
 					<execution>
 						<id>deploy</id>
-						<phase>site</phase>
+						<phase>deploy</phase>
 						<goals>
 							<goal>deploy</goal>
 						</goals>
