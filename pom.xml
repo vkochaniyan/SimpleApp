@@ -100,18 +100,16 @@
 				<version>2.1</version>
 				<configuration>
 					<deploymentType>cloudhub</deploymentType>
-					<muleVersion>3.7.2</muleVersion>
+					<muleVersion>3.8.0</muleVersion>
 					<username>st_VK</username>
 					<password>Kochi69</password>
 					<redeploy>true</redeploy>
 					<environment>Development</environment>
 					<applicationName>SimpleOld</applicationName>
-<!-- 
-					<businessGroup>${cloudhub.bg}</businessGroup>
+					<businessGroup>SunTrustInc</businessGroup>
 					<applications>
-						<application>${app.location}</application>
+						<application>SimpleOld</application>
 					</applications>
--->
 				</configuration>
 				<executions>
 					<execution>
