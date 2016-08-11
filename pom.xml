@@ -263,4 +263,16 @@
 		</pluginRepository>
 	</pluginRepositories>
  -->
+	<distributionManagement>
+		<snapshotRepository>
+			<id>my-snapshots</id>
+			<name>My internal repository</name>
+			<url>http://10.7.153.134:8081/repository/maven-snapshots/</url>
+		</snapshotRepository>
+		<repository>
+			<id>my-rlse</id>
+			<name>My internal repository</name>
+			<url>http://10.7.153.134:8081/repository/maven-releases/</url>
+		</repository>
+	</distributionManagement>
 </project>
